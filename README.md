@@ -34,15 +34,15 @@ If you want to use Gash or believes in project evolution, your steps are:
 
 ## Future plans
 
-• Use Lexer and Parser rather than ```strtok()```.
-• Add a command builder.
-• Add pipe support.
-• Add redirection support.
-• Add environment variable support.
-• Add if conditional.
-• Add for conditional.
-• Add while conditional.
-• Block ending with end.
-• Add subshell support.
-• Add status expansion support.
+• Use Lexer and Parser rather than ```strtok()```. <br>
+• Add a command builder. <br>
+• Add pipe support. <br>
+• Add redirection support. <br>
+• Add environment variable support. <br>
+• Add ```if``` conditional. <br>
+• Add ```for``` conditional. <br>
+• Add ```while``` conditional. <br>
+• Block ending with ```end```. <br>
+• Add subshell support. <br>
+• Add status expansion support. <br>
 • Add PID expansion support.
