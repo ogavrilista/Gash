@@ -12,5 +12,5 @@ install:
 uninstall:
 	rm $(GASH_PREFIX)/bin/gash
 clean:
-	rm -rf bin/gash $(GASH_PREFIX)/bin/gash
+	rm -rf *.o bin/gash $(GASH_PREFIX)/bin/gash
 .PHONY: install uninstall clean all
