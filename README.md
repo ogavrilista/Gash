@@ -1,4 +1,4 @@
-# Gash
+# Gash (Gabriel Shell)
 
 ## Intro
 Hello, world! 🌎
