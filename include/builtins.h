@@ -1,9 +1,10 @@
-#define BUILTINS_COUNT 3
+#define BUILTINS_COUNT 4
 #define GASH_VERSION 0.1
 
 void builtin_cd(char** args);
 void builtin_pwd(char** args);
 void builtin_export(char** args);
+void builtin_version(char** args);
 
 struct Builtin {
     char *name;
