@@ -5,8 +5,10 @@
 #include <sys/wait.h>
 #include <readline/readline.h>
 #include <readline/history.h>
+#include "../include/builtins.h"
 
 int main(){
+    extern struct Builtin builtins[];
     using_history();
     if (setenv("GASH_PROMPT", "Gash > ", 0) != 0){
         perror("gash");
