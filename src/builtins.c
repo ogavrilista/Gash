@@ -4,6 +4,13 @@
 #include <string.h>
 #include "../include/builtins.h"
 
+struct Builtin builtins[] = {
+    {"cd", &builtin_cd},
+    {"pwd", &builtin_pwd},
+    {"export", &builtin_export},
+    {"version", &builtin_version}
+};
+
 static int argcount(char **args){
     int i = 0;
     while (args[i] != NULL){
