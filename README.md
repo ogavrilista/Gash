@@ -25,7 +25,6 @@ The majority of mini shell uses ```<stdio.h>``` functions like ```fgets()``` or 
 
 If you want to use Gash or believes in project evolution, your steps are:
 
-• Create a folder called ```bin``` in project root. <br>
 • Define environment variable GASH_PREFIX if you need compile the Gash out of the ```/usr/local```. <br>
 • Run ```make``` command or ```make -j$(nproc)``` (That's unneeded, because Gash have only two files). <br>
 • Run ```make install```, if you install Gash. <br>
