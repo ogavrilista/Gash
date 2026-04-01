@@ -71,3 +71,8 @@ int builtin_export(char** args){
     }
     return 0;
 }
+
+int builtin_version(char** args){
+    puts(GASH_VERSION);
+    return 0;
+}
