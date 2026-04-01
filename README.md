@@ -21,6 +21,14 @@ The majority of mini shell uses ```<stdio.h>``` functions like ```fgets()``` or 
 <br>
 • Arrow keys support.
 
+## Built-in commands
+
+```cd```: Switch working directory.
+```pwd```: Write working directory on screen.
+```export```: Without arguments list all environment variables, with arguments define VAR=value.
+```version```: Write Gash version on screen.
+```exit```: Exit from Gash.
+
 ## How compile Gash?
 
 If you want to use Gash or believes in project evolution, your steps are:
