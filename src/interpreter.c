@@ -5,7 +5,6 @@
 #include <sys/wait.h>
 #include <readline/readline.h>
 #include <readline/history.h>
-#include "../include/builtins.h"
 
 int main(){
     using_history();
