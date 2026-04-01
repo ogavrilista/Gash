@@ -10,10 +10,3 @@ struct Builtin {
     char *name;
     int (*func)(char** args);
 };
-
-struct Builtin builtins[] = {
-    {"cd", &builtin_cd},
-    {"pwd", &builtin_pwd},
-    {"export", &builtin_export},
-    {"version", &builtin_version}
-};
