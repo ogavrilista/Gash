@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <string.h>
+#include "../include/builtins.h"
 
 static int argcount(char **args){
     int i = 0;
