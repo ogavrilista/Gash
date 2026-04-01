@@ -1,4 +1,5 @@
 #define BUILTINS_COUNT 3
+#define GASH_VERSION 0.1
 
 void builtin_cd(char** args);
 void builtin_pwd(char** args);
@@ -12,5 +13,6 @@ struct Builtin {
 struct Builtin builtins[] = {
     {"cd", &builtin_cd},
     {"pwd", &builtin_pwd},
-    {"export", &builtin_export}
+    {"export", &builtin_export},
+    {"version", &builtin_version}
 };
