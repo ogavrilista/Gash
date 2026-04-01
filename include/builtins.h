@@ -8,7 +8,7 @@ int builtin_version(char** args);
 
 struct Builtin {
     char *name;
-    void (*func)(char** args);
+    int (*func)(char** args);
 };
 
 struct Builtin builtins[] = {
